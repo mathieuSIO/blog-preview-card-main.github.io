@@ -1,0 +1,62 @@
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --font-weight: 800;
+}
+
+body{
+    background-color: var(--Yellow);
+    font-size: 16px;
+    font-family: "Figtree";
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--White);
+    width: 300px;
+    padding:20px;
+    margin: auto;
+    border: var(--Black) 2px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px var(--Black);
+}
+
+.illustration{
+    border-radius: 10px;
+    max-width:100%;
+	max-height:100%;
+}
+
+.t-head{
+    margin-top: 20px;
+}
+
+.categorie{
+    background-color: var(--Yellow);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 0 50px 0;
+    font-weight: var(--font-weight);
+}
+
+.footer{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.footer h4{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.content p{
+    color: var(--Grey);
+    font-weight: 600;
+}
